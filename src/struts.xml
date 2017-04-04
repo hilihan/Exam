@@ -8,7 +8,11 @@
 	
 	<package name="studentInfo" namespace="/" extends="struts-default">
 		
-		
+		<!-- 配置Action -->
+		<action name="student"  class="cn.mark.action.StudentAction">
+			<result name="success"  type="redirect">/main.jsp</result>
+			<result name="error" >/login.jsp</result>
+		</action>
 		
 	</package>
 	

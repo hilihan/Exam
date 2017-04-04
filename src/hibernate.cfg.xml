@@ -26,6 +26,12 @@
         <!-- 自动表更新 -->
         <property name="hbm2ddl.auto">update</property>
         
+        <!-- 表映射 -->
+        <mapping class="cn.mark.model.Manager" />
+        <mapping class="cn.mark.model.Paper" />
+        <mapping class="cn.mark.model.Question"/>
+        <mapping class="cn.mark.model.Student"/>
+        <mapping class="cn.mark.model.Exam" />
        
     </session-factory>
 
